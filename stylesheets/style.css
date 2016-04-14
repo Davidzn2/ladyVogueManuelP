@@ -1,0 +1,94 @@
+@import url('../stylessheets/reset.css');
+html, body{
+	font-family:'Montserrat',sans-serif;
+	color:white;
+}
+body{
+	background-color:#212121;
+}
+header{
+	background-color: #673AB7;
+	position: fixed;
+	width: 100%;
+	padding: 15px 0;
+	z-index: 1;
+}
+footer{
+	background-color: #673AB7;
+	width: 100%;
+	padding: 20px 0;
+	color: white;
+	text-align: center;
+}
+footer i{
+	padding: 0 120px 0 0;
+	color: #9E9E9E;
+}
+footer i:hover{
+	color: #727272;
+}
+/*#fotos{
+	padding: 140px 0;
+}*/
+.bajar{
+	padding: 181px 0;	
+}
+#direccion-mapa{
+	padding:250px 0;
+}
+nav ul{
+	list-style-type:none;
+	float:right;
+
+}
+nav li{
+	display:inline;
+	padding:0 8px 0 8px;
+	color:white;
+
+}
+nav a{
+	text-decoration: none;
+
+}
+nav #logo {
+	width: 150px;
+	height: 150px;
+}
+#slider{
+	width:100%;
+
+}
+form{
+	margin: 0 auto;
+	width: 1000px;
+	color:black;
+}
+form h2{
+	color:white;
+}
+input,textarea{
+	font-size: 15px;
+	width: 100%;
+	border: 1px solid;
+}
+input{
+	height:35px;
+}
+textarea{
+	height:100px;
+}
+.mapa{
+	margin: 0 auto;
+	width: 600px;
+}
+
+.foto-quienes{
+	padding: 0 320px 0;
+}
+tr:hover{
+	color: #727272;
+}
+table th{
+	font-size: 20px;
+}
